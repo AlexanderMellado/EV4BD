@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "64bda4e0a2f68e8a5be21f27"
+  },
+  "usuario": "alexmellado@gmail.com",
+  "fecha": {
+    "$date": "2023-07-23T00:00:00.000Z"
+  },
+  "peso_corporal": 69,
+  "medidas_corporales": {
+    "cintura": 80,
+    "cadera": 100,
+    "biceps": 36,
+    "muslo": 50
+  },
+  "nivel_condicion_fisica": "intermedio"
+},
+{
+  "_id": {
+    "$oid": "64bda535a2f68e8a5be21f28"
+  },
+  "usuario": "aaroncortes@gmail.com",
+  "fecha": {
+    "$date": "2023-07-24T00:00:00.000Z"
+  },
+  "peso_corporal": 78,
+  "medidas_corporales": {
+    "cintura": 70,
+    "cadera": 80,
+    "biceps": 45,
+    "muslo": 60
+  },
+  "nivel_condicion_fisica": "avanzado"
+},
+{
+  "_id": {
+    "$oid": "64c0034cfbf781e43b483e69"
+  },
+  "usuario": "feñagon@gmail.com",
+  "fecha": {
+    "$date": "2023-07-19T00:00:00.000Z"
+  },
+  "peso_corporal": 59,
+  "medidas_corporales": {
+    "cintura": 50,
+    "cadera": 80,
+    "biceps": 25,
+    "muslo": 60
+  },
+  "nivel_condicion_fisica": "avanzado"
+},
+{
+  "_id": {
+    "$oid": "64c0034ffbf781e43b483e6a"
+  },
+  "usuario": "lushim2010@gmail.com",
+  "fecha": {
+    "$date": "2023-05-16T00:00:00.000Z"
+  },
+  "peso_corporal": 72,
+  "medidas_corporales": {
+    "cintura": 65,
+    "cadera": 77,
+    "biceps": 37,
+    "muslo": 62
+  },
+  "nivel_condicion_fisica": "principiante"
+}]

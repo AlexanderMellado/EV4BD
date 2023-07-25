@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "64bda748a2f68e8a5be21f2a"
+  },
+  "usuario": "aaron.cortes@inacapmail.cl",
+  "fecha": "2023-07-22 00:00:00",
+  "duracion": "40",
+  "ejercicios_realizados": "{{'nombre': 'curl de bíceps', 'repeticiones': 12, 'series': 4, 'peso': 20}} {{'nombre': 'abdominales', 'repeticiones': 20, 'series': 3, 'peso': None}}"
+},
+{
+  "_id": {
+    "$oid": "64c001befbf781e43b483e59"
+  },
+  "usuario": "aaron.cortes@inacapmail.cl",
+  "fecha": {
+    "$date": "2023-07-25T00:00:00.000Z"
+  },
+  "duracion": 40,
+  "ejercicios_realizados": [
+    {
+      "nombre": "Salto de cuerda",
+      "series": 4,
+      "peso": null,
+      "tiempo": 3
+    },
+    {
+      "nombre": "Trote",
+      "series": 3,
+      "peso": null,
+      "tiempo": 20
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c001c2fbf781e43b483e5a"
+  },
+  "usuario": "felipe.diaz@inacapmail.cl",
+  "fecha": {
+    "$date": "2023-06-22T00:00:00.000Z"
+  },
+  "duracion": 30,
+  "ejercicios_realizados": [
+    {
+      "nombre": "Dominadas supinas",
+      "repeticiones": 12,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "Dominadas australianas",
+      "repeticiones": 20,
+      "series": 3,
+      "peso": null
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c001c5fbf781e43b483e5b"
+  },
+  "usuario": "valen@gmail.com",
+  "fecha": {
+    "$date": "2023-07-22T00:00:00.000Z"
+  },
+  "duracion": 50,
+  "ejercicios_realizados": [
+    {
+      "nombre": "sentadillas búlgaras",
+      "repeticiones": 15,
+      "series": 4,
+      "peso": 20
+    },
+    {
+      "nombre": "puente",
+      "repeticiones": 20,
+      "series": 3,
+      "peso": null
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c001cafbf781e43b483e5c"
+  },
+  "usuario": "alexander.mellado@inacapmail.cl",
+  "fecha": {
+    "$date": "2023-07-22T00:00:00.000Z"
+  },
+  "duracion": 30,
+  "ejercicios_realizados": [
+    {
+      "nombre": "flexiones",
+      "repeticiones": 10,
+      "series": 10,
+      "peso": null
+    },
+    {
+      "nombre": "dominadas",
+      "repeticiones": 10,
+      "series": 3,
+      "peso": null
+    }
+  ]
+}]

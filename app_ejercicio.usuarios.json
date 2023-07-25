@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "64bffca7080e816d5aef73b8"
+  },
+  "nombre": "Alexander Mellado",
+  "edad": 19,
+  "genero": "masculino",
+  "email": "alexander.mellado@inacapmail.cl",
+  "password": "passw123abc"
+},
+{
+  "_id": {
+    "$oid": "64bffcfc080e816d5aef73ba"
+  },
+  "nombre": "Valentina Navia",
+  "edad": 22,
+  "genero": "femenino",
+  "email": "valen@gmail.com",
+  "password": "vale223abc"
+},
+{
+  "_id": {
+    "$oid": "64bffd24080e816d5aef73bb"
+  },
+  "nombre": "Fernanda González",
+  "edad": 16,
+  "genero": "femenino",
+  "email": "feñagon@gmail.com",
+  "password": "fg2023abc"
+},
+{
+  "_id": {
+    "$oid": "64bffd84080e816d5aef73bc"
+  },
+  "nombre": "Christopher Araya",
+  "edad": 23,
+  "genero": "masculino",
+  "email": "chrismj@gmail.com",
+  "password": "ccc21d"
+},
+{
+  "_id": {
+    "$oid": "64bffda4080e816d5aef73bd"
+  },
+  "nombre": "Luis Orellana",
+  "edad": 29,
+  "genero": "masculino",
+  "email": "lushim2010@gmail.com",
+  "password": "inacap21da"
+},
+{
+  "_id": "64c006c3c9de913507641e24",
+  "nombre": "Pepe",
+  "edad": "27",
+  "genero": "masculino",
+  "email": "pepe123@gmail.com",
+  "password": "823923"
+},
+{
+  "_id": "64c00a36b01128b5887db4f5",
+  "nombre": "Alejandro Contreras",
+  "edad": "33",
+  "genero": "masculino",
+  "email": "ac@gmail.com",
+  "password": "128931"
+}]

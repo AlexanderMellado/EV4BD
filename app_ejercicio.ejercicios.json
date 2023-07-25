@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "64bd9c21a2f68e8a5be21f24"
+  },
+  "nombre": "Dominadas",
+  "descripcion": "Uno de los ejercicios de peso corporal más completos de tren superior, fortalece espalda, bíceps, antebrazos y utiliza el abdomen como músculo estabilizador",
+  "musculos_trabajados": [
+    "espalda",
+    "bíceps",
+    "antebrazos"
+  ],
+  "equipo_necesario": "barra",
+  "nivel_dificultad": "principiante"
+},
+{
+  "_id": {
+    "$oid": "64c003dcfbf781e43b483e71"
+  },
+  "nombre": "Zancadas explosivas",
+  "descripcion": "hola hola hola",
+  "musculos_trabajados": "muslos gluteos {musculos extensores de la cadera}",
+  "equipo_necesario": "nada",
+  "nivel_dificultad": "principiante"
+},
+{
+  "_id": {
+    "$oid": "64c003defbf781e43b483e72"
+  },
+  "nombre": "Flexiones",
+  "descripcion": "Otro de los ejercicios más completos de tren superior, trabaja triceps, hombros y pectorales con activacion del abdomen",
+  "musculos_trabajados": [
+    "triceps",
+    "deltoides",
+    "pectoral mayor"
+  ],
+  "equipo_necesario": "nada",
+  "nivel_dificultad": "principiante"
+},
+{
+  "_id": {
+    "$oid": "64c003e1fbf781e43b483e73"
+  },
+  "nombre": "Sentadillas",
+  "descripcion": "Ejercicio de tren inferior que activa una gran cantidad de músculos",
+  "musculos_trabajados": [
+    "muslos",
+    "gemelos",
+    "gluteos"
+  ],
+  "equipo_necesario": "nada",
+  "nivel_dificultad": "principiante"
+},
+{
+  "_id": "64c0074dc9de913507641e25",
+  "nombre": "Flexiones diamante",
+  "descripcion": "Trabaja triceps",
+  "musculos_trabajados": "Tricep, pectoral y hombros",
+  "equipo_necesario": "ninguno",
+  "nivel_dificultad": "intermedio"
+},
+{
+  "_id": "64c00aafb01128b5887db4f6",
+  "nombre": "puente",
+  "descripcion": "trabaja el abdomen y los gluteos",
+  "musculos_trabajados": "abdomen, gluteos y caderas",
+  "equipo_necesario": "ninguno",
+  "nivel_dificultad": "principiante"
+}]

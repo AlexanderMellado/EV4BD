@@ -1,0 +1,130 @@
+ESTRUCTURA BASE DE DATOS:
+
+// Colección Usuarios - Estructura de Datos:
+
+db.usuarios.insertOne({
+  nombre: "Alexander Mellado",
+  edad: 19,
+  genero: "masculino",
+  email: "alexmellado@gmail.com",
+  password: "password123",
+  historial_ejercicios: [
+    {
+      fecha: new Date("2023-07-23"),
+      duracion: 45,
+      ejercicios: [
+        {
+          nombre: "zancadas con salto",
+          repeticiones: 15,
+          series: 4,
+	  peso: null
+        },
+        {
+          nombre: "flexiones de arquero",
+          repeticiones: 12,
+	  series: 4,
+          peso: null
+        },
+	{
+	  nombre: "dominadas",
+	  repeticiones: 8,
+	  series: 4,
+	  peso: null
+	}
+      ]
+    }
+  ]
+})
+
+
+
+
+// Colección Ejercicios - Estructura de Datos:
+
+db.ejercicios.insertOne({
+  nombre: "Sentadillas",
+  descripcion: "Ejercicio para fortalecer piernas y glúteos",
+  musculos_trabajados: ["cuádriceps", "glúteos", "isquiotibiales"],
+  equipo_necesario: "ninguno",
+  nivel_dificultad: "intermedio"
+})
+
+
+
+
+// Colección Rutinas - Estructura de Datos:
+
+db.rutinas.insertOne({
+  nombre: "Rutina tren superior",
+  descripcion: "Rutina de ejercicios para fortalecer todo el tren superior",
+  duracion: 60,
+  nivel_dificultad: "intermedio",
+  ejercicios: [
+    {
+      nombre: "sentadillas",
+      repeticiones: 10,
+      peso: 50
+    },
+    {
+      nombre: "zancadas",
+      repeticiones: 12,
+      peso: null
+    },
+    {
+      nombre: "prensa de piernas",
+      repeticiones: 8,
+      peso: 80
+    }
+  ]
+})
+
+
+
+
+// Colección Progreso - Estructura de Datos:
+
+db.progreso.insertOne({
+  usuario: "alexmellado@gmail.com",
+  fecha: new Date("2023-07-23"),
+  peso_corporal: 69,
+  medidas_corporales: {
+    cintura: 80,
+    cadera: 100,
+    biceps: 30,
+    muslo: 50
+  },
+  nivel_condicion_fisica: "intermedio"
+})
+
+
+
+
+// Colección Registro_Ejercicios - Estructura de Datos:
+
+db.registro_ejercicios.insertOne({
+  usuario: "aaroncortes@gmail.com",
+  fecha: new Date("2023-07-20"),
+  duracion: 45,
+  ejercicios_realizados: [
+    {
+      nombre: "sentadillas",
+      repeticiones: 10,
+      series: 4,
+      peso: 50
+    },
+    {
+      nombre: "flexiones",
+      repeticiones: 12,
+      series: 4
+      peso: null
+    }
+  ]
+})
+
+
+Índices para agilizar consulta de datos:
+
+db.rutinas.createIndex( { 'nombre_rutina':1, 'dificultad':1 } )
+db.ejercicios.createIndex( { 'nombre_ejercicio':1, 'tipo':1, 'musculos_involucrados':1 } )
+db.usuario.createIndex( { 'nombre':1, 'altura':1, 'peso':1 } )
+db.registro_ejercicio.createIndex( {'email':1} )

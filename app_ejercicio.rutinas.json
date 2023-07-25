@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "64bda0c1a2f68e8a5be21f25"
+  },
+  "nombre": "Rutina tren superior",
+  "descripcion": "Rutina de ejercicios que trabaja todo el tren superior",
+  "duracion": "40",
+  "nivel_dificultad": "intermedio",
+  "ejercicios": "{{'nombre': 'flexiones de diamante', 'repeticiones': 10, 'series': 4, 'peso': None}} {{'nombre': 'dominadas supinas', 'repeticiones': 8, 'series': 4, 'peso': None}} {{'nombre': 'fondos', 'repeticiones': 8, 'series': 3, 'peso': None}} {{'nombre': 'dominadas australianas', 'repeticiones': 10, 'series': 4, 'peso': None}}"
+},
+{
+  "_id": {
+    "$oid": "64bda366a2f68e8a5be21f26"
+  },
+  "nombre": "Rutina tren inferior",
+  "descripcion": "Rutina de ejercicios que trabaja todo el tren inferior",
+  "duracion": 50,
+  "nivel_dificultad": "intermedio",
+  "ejercicios": [
+    {
+      "nombre": "elevación de pantorrillas",
+      "repeticiones": 20,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "zancadas",
+      "repeticiones": 15,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "sentadillas con salto",
+      "repeticiones": 12,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "sentadilla búlgara",
+      "repeticiones": 10,
+      "series": 3,
+      "peso": 20
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c00039080e816d5aef73c0"
+  },
+  "nombre": "Hombros",
+  "descripcion": "Rutina para fortalecer los hombros",
+  "duracion": 45,
+  "nivel_dificultad": "intermedia",
+  "ejercicios": [
+    {
+      "nombre": "press militar",
+      "repeticiones": 10,
+      "series": 4,
+      "peso": 15
+    },
+    {
+      "nombre": "flexiones en picada",
+      "repeticiones": 8,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "elevaciones laterales",
+      "repeticiones": 8,
+      "series": 3,
+      "peso": 8
+    },
+    {
+      "nombre": "flexiones",
+      "repeticiones": 12,
+      "series": 2,
+      "peso": null
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c000ca080e816d5aef73c1"
+  },
+  "nombre": "Cardio",
+  "descripcion": "Rutina para fortalecer la capacidad aeróbica",
+  "duracion": 60,
+  "nivel_dificultad": "intermedia / principiante",
+  "ejercicios": [
+    {
+      "nombre": "Salto de cuerda",
+      "tiempo": 5,
+      "series": 4,
+      "peso": null
+    },
+    {
+      "nombre": "zancadas explosivas",
+      "tiempo": 1,
+      "series": 3,
+      "peso": null
+    },
+    {
+      "nombre": "skipping",
+      "repeticiones": 20,
+      "series": 40,
+      "peso": null
+    },
+    {
+      "nombre": "trote",
+      "tiempo": 20,
+      "series": 2,
+      "peso": null
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64c00137080e816d5aef73c2"
+  },
+  "nombre": "Espalda",
+  "descripcion": "Rutina para fortalecer espalda",
+  "duracion": 45,
+  "nivel_dificultad": "intermedia",
+  "ejercicios": [
+    {
+      "nombre": "Dominadas supinas",
+      "repeticiones": 8,
+      "series": 3,
+      "peso": null
+    },
+    {
+      "nombre": "Dominadas pronas",
+      "repeticiones": 8,
+      "series": 3,
+      "peso": null
+    },
+    {
+      "nombre": "Dominadas australianas",
+      "repeticiones": 12,
+      "series": 3,
+      "peso": null
+    }
+  ]
+}]
